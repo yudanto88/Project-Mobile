@@ -1,0 +1,31 @@
+name: getx_clean_architecture
+version: 1.0.0+1
+publish_to: none
+description: A Flutter Clean Architecture Using GetX.
+environment:
+  sdk: ">=2.12.0 <3.0.0"
+
+dependencies:
+  tuple: ^2.0.0
+  cached_network_image: ^3.1.0
+  json_annotation: any
+  jiffy: ^4.1.0
+  shared_preferences: ^2.0.6
+  visibility_detector: ^0.2.0
+  get: 4.6.6
+  cupertino_icons: ^1.0.2
+  google_fonts: ^6.1.0
+  image_picker: ^1.0.4
+  google_nav_bar: ^5.0.6
+
+  flutter:
+    sdk: flutter
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+flutter:
+  assets:
+    - assets/
+  uses-material-design: true
